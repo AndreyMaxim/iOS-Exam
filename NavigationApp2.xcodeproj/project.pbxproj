@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		555FF3981E4D8D7600DF6244 /* FontSizesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555FF3971E4D8D7600DF6244 /* FontSizesViewController.swift */; };
+		555FF39A1E4D91A400DF6244 /* FontInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555FF3991E4D91A400DF6244 /* FontInfoViewController.swift */; };
 		557933681E4CBBF100EECC90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557933671E4CBBF100EECC90 /* AppDelegate.swift */; };
-		5579336A1E4CBBF100EECC90 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557933691E4CBBF100EECC90 /* ViewController.swift */; };
 		5579336D1E4CBBF100EECC90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5579336B1E4CBBF100EECC90 /* Main.storyboard */; };
 		5579336F1E4CBBF100EECC90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5579336E1E4CBBF100EECC90 /* Assets.xcassets */; };
 		557933721E4CBBF100EECC90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 557933701E4CBBF100EECC90 /* LaunchScreen.storyboard */; };
 		5579337D1E4CBBF100EECC90 /* NavigationApp2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5579337C1E4CBBF100EECC90 /* NavigationApp2Tests.swift */; };
 		557933881E4CBBF100EECC90 /* NavigationApp2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557933871E4CBBF100EECC90 /* NavigationApp2UITests.swift */; };
+		5579339A1E4CBD1A00EECC90 /* FavoritesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557933991E4CBD1A00EECC90 /* FavoritesList.swift */; };
+		5579339C1E4CBDD600EECC90 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5579339B1E4CBDD600EECC90 /* RootViewController.swift */; };
+		5579339E1E4CC7EC00EECC90 /* FontListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5579339D1E4CC7EC00EECC90 /* FontListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		555FF3971E4D8D7600DF6244 /* FontSizesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontSizesViewController.swift; sourceTree = "<group>"; };
+		555FF3991E4D91A400DF6244 /* FontInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontInfoViewController.swift; sourceTree = "<group>"; };
 		557933641E4CBBF100EECC90 /* NavigationApp2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationApp2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		557933671E4CBBF100EECC90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		557933691E4CBBF100EECC90 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5579336C1E4CBBF100EECC90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5579336E1E4CBBF100EECC90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		557933711E4CBBF100EECC90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +52,9 @@
 		557933831E4CBBF100EECC90 /* NavigationApp2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavigationApp2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		557933871E4CBBF100EECC90 /* NavigationApp2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationApp2UITests.swift; sourceTree = "<group>"; };
 		557933891E4CBBF100EECC90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		557933991E4CBD1A00EECC90 /* FavoritesList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesList.swift; sourceTree = "<group>"; };
+		5579339B1E4CBDD600EECC90 /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		5579339D1E4CC7EC00EECC90 /* FontListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +106,15 @@
 			isa = PBXGroup;
 			children = (
 				557933671E4CBBF100EECC90 /* AppDelegate.swift */,
-				557933691E4CBBF100EECC90 /* ViewController.swift */,
 				5579336B1E4CBBF100EECC90 /* Main.storyboard */,
 				5579336E1E4CBBF100EECC90 /* Assets.xcassets */,
 				557933701E4CBBF100EECC90 /* LaunchScreen.storyboard */,
 				557933731E4CBBF100EECC90 /* Info.plist */,
+				557933991E4CBD1A00EECC90 /* FavoritesList.swift */,
+				5579339B1E4CBDD600EECC90 /* RootViewController.swift */,
+				5579339D1E4CC7EC00EECC90 /* FontListViewController.swift */,
+				555FF3991E4D91A400DF6244 /* FontInfoViewController.swift */,
+				555FF3971E4D8D7600DF6244 /* FontSizesViewController.swift */,
 			);
 			path = NavigationApp2;
 			sourceTree = "<group>";
@@ -259,8 +271,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5579336A1E4CBBF100EECC90 /* ViewController.swift in Sources */,
+				555FF3981E4D8D7600DF6244 /* FontSizesViewController.swift in Sources */,
 				557933681E4CBBF100EECC90 /* AppDelegate.swift in Sources */,
+				5579339E1E4CC7EC00EECC90 /* FontListViewController.swift in Sources */,
+				555FF39A1E4D91A400DF6244 /* FontInfoViewController.swift in Sources */,
+				5579339A1E4CBD1A00EECC90 /* FavoritesList.swift in Sources */,
+				5579339C1E4CBDD600EECC90 /* RootViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +521,7 @@
 				5579338E1E4CBBF100EECC90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5579338F1E4CBBF100EECC90 /* Build configuration list for PBXNativeTarget "NavigationApp2Tests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +530,7 @@
 				557933911E4CBBF100EECC90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		557933921E4CBBF100EECC90 /* Build configuration list for PBXNativeTarget "NavigationApp2UITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +539,7 @@
 				557933941E4CBBF100EECC90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
